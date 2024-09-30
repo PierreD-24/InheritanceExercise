@@ -53,6 +53,9 @@ namespace Inheritance
                 HasScales = true,
                 Type = "Komodo Dragon"
             };
+            
+            Console.WriteLine($"Name: {pigeon.Name}, Age: {pigeon.Age}, Sound: {pigeon.ChirpSound}");
+            Console.WriteLine($"Name: {lizard.Name}, Age: {lizard.Age}, Legs: {lizard.Legs}, Type: {lizard.Type}");
         }
     }
 }
