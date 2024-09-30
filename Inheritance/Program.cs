@@ -28,12 +28,31 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
-
+            Bird pigeon = new Bird() {
+                HasLegs = true, 
+                Age = 4, 
+                Name = "Pigeon", 
+                ChirpSound = "squak", 
+                HasBeak = true, 
+                HasEyes = true, 
+                HasFeathers = true, 
+                CanFly = true};
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+            Reptile lizard = new Reptile()
+            {
+                HasLegs = true,
+                Age = 20,
+                Name = "Lizard",
+                ColdBlooded = true,
+                Legs = 4,
+                HasEyes = true,
+                HasScales = true,
+                Type = "Komodo Dragon"
+            };
         }
     }
 }
